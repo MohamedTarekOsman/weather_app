@@ -13,7 +13,7 @@ function App() {
   let [hum, sethum] = useState("");
   let [wind, setwind] = useState("");
   let [loading, setLoading] = useState(false);
-  let url = `http://api.weatherapi.com/v1/current.json?key=912b188ebf494e7f853184345231003&q=${input}`;
+  let url = `//api.weatherapi.com/v1/current.json?key=912b188ebf494e7f853184345231003&q=${input}`;
   let searchLocationurl = async () => {
     setLoading(true);
     try {
