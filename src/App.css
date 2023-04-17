@@ -10,7 +10,6 @@
   background-size: cover;
   text-align: center;
   position: relative;
- 
 }
 .bg{
   width: 100%;
@@ -73,7 +72,6 @@
   transform: rotate(90deg);
   width: 40%;
   margin-left: auto;
-
 }
 .container{
   display: flex;
@@ -97,4 +95,13 @@
   font-weight: bold;
   font-family: sans-serif;
 
+}
+
+@media screen and (max-width: 430px){
+    .result{
+      padding: 0;
+    }
+    .status{
+      margin-left: -10%;
+    }
 }
