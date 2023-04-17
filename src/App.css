@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-image: url('./assets/sunset.jpg');
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+ 
+}
+.bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.my-input {
+  border-radius: 10px;
+  border: 1px solid rgb(83, 83, 83);
+  padding: 10px;
+  outline: 0;
+  margin-top: 5%;
+  width: 40%;
+  height: 3.5em;
+  background-color: rgb(83, 83, 83);
+  color: #ffffff;
+}
+.my-input:focus{
+  border: 1px solid rgb(4, 66, 35);
+}
+.search{
+  width: 5%;
+  height: 3em;
+  margin-left: 1%;
+  background-color: rgb(83, 83, 83);
+  color: #ffffff;
+  outline: 0;
+  border-radius: 10px;
+  border: 1px solid rgb(83, 83, 83);
+  cursor: pointer;
+}
+.search:hover{
+  border: 1px solid rgb(4, 66, 35);
+}
+/* /////////////////////////////////////////////////// */
+
+.result{
+  width: 50%;
+  text-align: start;
+  padding-left: 5%;
+}
+.c_name{
+  font-size: 200%;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 10%;
+}
+.degree{
+    font-size: 400%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 3%;
+}
+.status{
+  font-size: 200%;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  transform: rotate(90deg);
+  width: 40%;
+  margin-left: auto;
+
+}
+.container{
+  display: flex;
+  width: 100%;
+}
+
+/* /////////////////////////////////////////////////// */
+.prediction{
+  display: flex;
+  width: 50%;
+  background-color: rgba(139, 132, 132,0.5);
+  padding: 2%;
+  border-radius: 10px;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 5%;
+  margin-left: 25%;
+}
+.comp{
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+
+}
